@@ -1,0 +1,76 @@
+.background-color {
+    background-color: #dbf3f6;
+
+}
+
+.page-holder {
+    min-height: 100vh;
+}
+
+.bg-cover {
+    background-size: cover !important;
+}
+
+hr.dashed {
+    border-top: 2px dashed #999;
+}
+
+
+.text-gradient-nav {
+    font-size: 1em;
+    background: linear-gradient(to right, #0ccbe5, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.custom-scrollbar-css {
+    height: 200px;
+}
+
+.custom-scrollbar-css {
+    overflow-y: scroll;
+}
+
+
+.custom-scrollbar-css::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+.custom-scrollbar-css::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #00d2ff;
+    background-image: linear-gradient(to top, #00d2ff 0%, #3a7bd5 100%);
+}
+
+
+
+/*footer*/
+
+#button-addon1 {
+    color: #ffc371;
+}
+
+i {
+    color: #ffc371;
+}
+
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+    box-shadow: none;
+}
+
+.footer-field{
+    background: linear-gradient(to right, #0ccbe5, #3a7bd5);
+}
